@@ -9,7 +9,7 @@ package futsal;
  *
  * @author Asus
  */
-public class Futsal {
+public class futsal {
 
     /**
      * @param args the command line arguments
