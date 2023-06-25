@@ -14,8 +14,23 @@ public class tanda_selesai extends javax.swing.JFrame {
     /**
      * Creates new form tanda_selesai
      */
-    public tanda_selesai() {
+     String nama1,nohp ,tanggal,bulan,tahun,jenis_lapangan,detik1,jam1,zona1;
+    public tanda_selesai(String nama1, String nohp,String tanggal, String bulan, String tahun, String jenis_lapangan,String detik1,String jam1,String zona1) {
+        this.nama1 = nama1;
+        this.nohp = nohp;
+        this.tanggal = tanggal;
+        this.bulan = bulan;
+        this.tahun = tahun;
+        this.jenis_lapangan = jenis_lapangan;
+        this.detik1 = detik1;
+        this.jam1 = jam1;
+        this.zona1 = zona1;
         initComponents();
+
+    }
+
+    tanda_selesai() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 
     /**
@@ -54,6 +69,11 @@ public class tanda_selesai extends javax.swing.JFrame {
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton1ActionPerformed(evt);
+            }
+        });
+        jButton1.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyPressed(java.awt.event.KeyEvent evt) {
+                jButton1KeyPressed(evt);
             }
         });
 
@@ -115,8 +135,17 @@ public class tanda_selesai extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
-        new resi().setVisible(true);
+      
+       resi t = new resi(nama1, nohp, tanggal, bulan,tahun,jenis_lapangan,detik1,jam1,zona1);
+       t.setVisible(true);
+       
+       dispose();
     }//GEN-LAST:event_jButton1ActionPerformed
+
+    private void jButton1KeyPressed(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jButton1KeyPressed
+        
+       
+    }//GEN-LAST:event_jButton1KeyPressed
 
     /**
      * @param args the command line arguments
