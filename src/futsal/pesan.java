@@ -98,7 +98,7 @@ public class pesan extends javax.swing.JFrame {
         jLabel8.setText(":");
 
         jLabel9.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
-        jLabel9.setText("Jenis Hari");
+        jLabel9.setText("Jenis Lapangan");
 
         jLabel12.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
         jLabel12.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
