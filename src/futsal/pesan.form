@@ -116,7 +116,10 @@
                                                               <EmptySpace min="-2" pref="41" max="-2" attributes="0"/>
                                                               <Component id="ComboBulan" min="-2" max="-2" attributes="0"/>
                                                               <EmptySpace max="-2" attributes="0"/>
-                                                              <Component id="ComboTahun" min="-2" pref="103" max="-2" attributes="0"/>
+                                                              <Group type="103" groupAlignment="0" attributes="0">
+                                                                  <Component id="zona_waktu" min="-2" pref="81" max="-2" attributes="0"/>
+                                                                  <Component id="ComboTahun" min="-2" pref="103" max="-2" attributes="0"/>
+                                                              </Group>
                                                           </Group>
                                                       </Group>
                                                   </Group>
@@ -133,13 +136,12 @@
                                                       <Group type="102" alignment="0" attributes="0">
                                                           <Component id="jLabel24" min="-2" pref="35" max="-2" attributes="0"/>
                                                           <EmptySpace max="-2" attributes="0"/>
-                                                          <Component id="detik" min="-2" max="-2" attributes="0"/>
-                                                          <EmptySpace min="-2" pref="33" max="-2" attributes="0"/>
                                                           <Component id="jam" min="-2" pref="107" max="-2" attributes="0"/>
-                                                          <EmptySpace max="-2" attributes="0"/>
-                                                          <Component id="zona_waktu" min="-2" pref="81" max="-2" attributes="0"/>
+                                                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                                                          <Component id="detik" min="-2" max="-2" attributes="0"/>
                                                       </Group>
                                                   </Group>
+                                                  <EmptySpace min="-2" pref="121" max="-2" attributes="0"/>
                                               </Group>
                                           </Group>
                                       </Group>
@@ -197,15 +199,13 @@
                           <Group type="103" groupAlignment="0" attributes="0">
                               <Group type="102" alignment="0" attributes="0">
                                   <EmptySpace min="9" pref="9" max="-2" attributes="0"/>
-                                  <Group type="103" groupAlignment="3" attributes="0">
-                                      <Component id="jam" alignment="3" min="-2" max="-2" attributes="0"/>
-                                      <Component id="zona_waktu" alignment="3" min="-2" max="-2" attributes="0"/>
-                                  </Group>
+                                  <Component id="zona_waktu" min="-2" max="-2" attributes="0"/>
                               </Group>
                               <Group type="103" alignment="0" groupAlignment="3" attributes="0">
                                   <Component id="jLabel24" alignment="3" min="-2" pref="27" max="-2" attributes="0"/>
                                   <Component id="jLabel23" alignment="3" min="-2" pref="41" max="-2" attributes="0"/>
                                   <Component id="detik" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jam" alignment="3" min="-2" max="-2" attributes="0"/>
                               </Group>
                           </Group>
                           <EmptySpace min="-2" max="-2" attributes="0"/>
@@ -286,7 +286,7 @@
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                       <Font name="Times New Roman" size="14" style="1"/>
                     </Property>
-                    <Property name="text" type="java.lang.String" value="Jenis Hari"/>
+                    <Property name="text" type="java.lang.String" value="Jenis Lapangan"/>
                   </Properties>
                 </Component>
                 <Component class="javax.swing.JLabel" name="jLabel12">
@@ -306,8 +306,8 @@
                     <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
                       <StringArray count="3">
                         <StringItem index="0" value="Pilih"/>
-                        <StringItem index="1" value="WEEKDAYS"/>
-                        <StringItem index="2" value="WEEKEND"/>
+                        <StringItem index="1" value="LAPANGAN MATRAS"/>
+                        <StringItem index="2" value="LAPANGAN RUMPUT"/>
                       </StringArray>
                     </Property>
                     <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
