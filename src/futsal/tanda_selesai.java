@@ -139,7 +139,7 @@ public class tanda_selesai extends javax.swing.JFrame {
        resi t = new resi(nama1, nohp, tanggal, bulan,tahun,jenis_lapangan,detik1,jam1,zona1);
        t.setVisible(true);
        
-       dispose();
+       
     }//GEN-LAST:event_jButton1ActionPerformed
 
     private void jButton1KeyPressed(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jButton1KeyPressed
